@@ -1,0 +1,25 @@
+{
+    "name": "commonhelp/cppress-college",
+    "type": "wp-theme",
+    "description": "Wordpress Theme College",
+    "keywords": ["wordpress","theme", "frontend"],
+    "homepage": "https://github.com/marcoski/cppress-college",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco 'Marcoski' Trognoni",
+            "email": "mtrognon@commonhelp.it",
+            "homepage": "http://www.commonhelp.it",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"CpPressCollege\\": "src/CpPressCollege"
+    	}
+    },
+    "minimum-stability": "dev",
+    "require": {
+     	"php": ">=5.4"
+    }
+}
